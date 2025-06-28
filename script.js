@@ -14,3 +14,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const expenseList = document.getElementById("expense-list");
   const toggleSummaryBtn = document.getElementById("toggle-summary-btn");
   const summarySection = document.getElementById("summary-section");
+
+  setIncomeBtn.addEventListener("click", function () {
+    const income = parseFloat(incomeInput.value);
+    if (!isNaN(income)) {
+      totalIncome = income;
+      updateSummary();
+      incomeInput.value = "";
+    }
+  });
+  
