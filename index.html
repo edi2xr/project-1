@@ -8,26 +8,33 @@
 </head>
 <body>
 
-<div class="logo">
+  <div class="logo">
     <img src="./logo.jpeg" alt="Budget Tracker Logo" />
   </div>
   <h1>Budget Tracker</h1>
   <section>
- <h2>Monthly Income</h2>
+    <h2>Monthly Income</h2>
     <input type="number" id="income-input" placeholder="Enter income" />
-    placeholder="Expense name" />
+    <button id="set-income-btn">Set Income</button>
+  </section>
+  <section>
+    <h2>Add Expense</h2>
+    <input type="text" id="expense-name" placeholder="Expense name" />
     <input type="number" id="expense-amount" placeholder="Amount" />
     <button id="add-expense-btn">Add Expense</button>
   </section>
-  <button id="toggle-summary-btn">Show 
-    Summary</button>
+  <button id="toggle-summary-btn">Show Summary</button>
   <section id="summary-section" style="display: none;">
     <h2>Summary</h2>
     <p>Total Income: <span id="total-income">0</span></p>
     <p>Total Expenses: <span id="total-expenses">0</span></p>
     <p>Balance: <span id="balance">0</span></p>
   </section>
-   <section>
+  <section>
     <h2>Expense List</h2>
     <ul id="expense-list"></ul>
   </section>
+
+  <script src="./script.js"></script>
+</body>
+</html>
