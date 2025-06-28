@@ -1,0 +1,10 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #f0eef4;
+  text-align: center;
+  background: linear-gradient(to bottom, #00204a, #005792); /* Deep blue gradient */
+  overflow-x: hidden;
+  position: relative;
+}
