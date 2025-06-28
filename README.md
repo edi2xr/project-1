@@ -1,20 +1,20 @@
-# 💰 Budget Tracker
+#  Budget Tracker
 
 **Budget Tracker** is a simple, beginner-friendly web application that allows users to input their monthly income and track essential expenses. It calculates total expenses, remaining balance, and provides a summary on demand.
 
 ---
 
-## 🌟 Features
+##  Features
 
-- ✅ Set your monthly income  
-- ➕ Add multiple daily expenses  
-- 📊 View a summary with total income, expenses, and balance  
-- 🎨 Modern, animated UI with starry background  
-- 🔘 Optional "Show Summary" button for cleaner experience
+-  Set your monthly income  
+-  Add multiple daily expenses  
+-  View a summary with total income, expenses, and balance  
+-  Modern, animated UI with starry background  
+-  Optional "Show Summary" button for cleaner experience
 
 ---
 
-## 🧱 Built With
+##  Built With
 
 - **HTML** – Structure and layout  
 - **CSS** – Styling and animations  
@@ -23,11 +23,11 @@
 ---
 
 
-## 📁 Project Structure
+##  Project Structure
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 1. Download or clone the project.
 2. Open `index.html` in any modern browser.
@@ -37,7 +37,7 @@
 
 ---
 
-## 📌 Highlights
+##  Highlights
 
 - Styled with a gradient background and animated stars 🌌  
 - Clean layout with centered elements  
@@ -46,16 +46,16 @@
 
 ---
 
-## 💡 Future Enhancements
+##  Future Enhancements
 
-- 🗂 Add expense categories  
-- 💾 Store data in localStorage  
-- 📈 Add charts to visualize spending patterns  
-- 📱 Improve mobile responsiveness
+-  Add expense categories  
+-  Store data in localStorage  
+-  Add charts to visualize spending patterns  
+-  Improve mobile responsiveness
 
 ---
 
-## 🙋‍♂️ Author
+##  Author
 
 **Adrian Mutua**  
 *Beginner Web Developer*
@@ -65,7 +65,7 @@
 ---
 ---
 
-## 📃 License
+##  License
 
 This project is open for learning and personal use.
 
