@@ -23,4 +23,21 @@ document.addEventListener("DOMContentLoaded", function () {
       incomeInput.value = "";
     }
   });
-  
+
+   addExpenseBtn.addEventListener("click", function () {
+    const name = expenseNameInput.value.trim();
+    const amount = parseFloat(expenseAmountInput.value);
+
+    if (name !== "" && !isNaN(amount) && amount > 0) {
+      totalExpenses += amount;
+
+      const li = document.createElement("li");
+      li.textContent = ${name}: Ksh ${amount.toFixed(2)};
+      expenseList.appendChild(li);
+
+      updateSummary();
+
+      expenseNameInput.value = "";
+      expenseAmountInput.value = "";
+    }
+  });
