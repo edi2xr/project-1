@@ -22,3 +22,7 @@ body::before {
   animation: twinkle-stars 60s linear infinite;
   z-index: -1;
 }
+@keyframes twinkle-stars {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(-50px, -100px); }
+}
