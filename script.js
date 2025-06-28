@@ -41,3 +41,13 @@ document.addEventListener("DOMContentLoaded", function () {
       expenseAmountInput.value = "";
     }
   });
+
+  oggleSummaryBtn.addEventListener("click", function () {
+    if (summarySection.style.display === "none") {
+      summarySection.style.display = "block";
+      toggleSummaryBtn.textContent = "Hide Summary";
+    } else {
+      summarySection.style.display = "none";
+      toggleSummaryBtn.textContent = "Show Summary";
+    }
+  });
