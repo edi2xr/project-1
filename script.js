@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
       totalExpenses += amount;
 
       const li = document.createElement("li");
-      li.textContent = ${name}: Ksh ${amount.toFixed(2)};
+      li.textContent = `${name}: Ksh ${amount.toFixed(2)}`;
       expenseList.appendChild(li);
 
       updateSummary();
