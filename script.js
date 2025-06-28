@@ -12,3 +12,5 @@ document.addEventListener("DOMContentLoaded", function () {
   const totalExpensesDisplay = document.getElementById("total-expenses");
   const balanceDisplay = document.getElementById("balance");
   const expenseList = document.getElementById("expense-list");
+  const toggleSummaryBtn = document.getElementById("toggle-summary-btn");
+  const summarySection = document.getElementById("summary-section");
